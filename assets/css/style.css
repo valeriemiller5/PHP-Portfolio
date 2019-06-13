@@ -1,0 +1,284 @@
+  body {
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: darkslategray;
+  }
+
+  #image {
+    width: 265px;
+    height: 150px;
+    padding: 20px;
+  }
+
+  .form-group {
+    width: 250px;
+  }
+
+  #name, #email, #message {
+    border-radius: 25px;
+    width: 250px;
+  }
+
+  #app {
+    margin-left: 28%;
+  }
+
+  #profiles {
+    margin-left: 13%;
+  }
+
+  .link {
+    padding: 50px;
+    margin-left: 45%;
+  }
+
+  .paragraph {
+    padding: 20px;
+  }
+
+  .myPhoto {
+    margin-left: 150px;
+    margin-right: 10px;
+    height: 150px;
+    float: left;
+  }
+
+  .initials {
+    height: 100px;
+    width: 115px;
+    margin-left: 18px;
+  }
+
+  .container, p, h3 {
+    margin-left: 12%;
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10%;
+  }
+  
+  .bgimg-1 {
+    background-image: url("../images/background1.jpg");
+    height: 400px;
+  }
+  
+  .bgimg-2 {
+    background-image: url("../images/background2.jpg");
+    height: 400px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("../images/background3.jpg");
+    height: 400px;
+  }
+  
+  .bgimg-4 {
+    background-image: url("../images/background4.jpg");
+    height: 400px;
+  }
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: darkslategray;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  h3 {
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: darkslategray;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(245, 217, 221);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: darkslategray;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: white;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+  #contactInfo {
+    padding: 15px 50px 35px 50px;
+  }
+  
+  #name, #email {
+    width: 400px;
+  }
+  
+  #message {
+    width: 375px;
+    height: 175px;
+  }
+
+  .bottomNav {
+    overflow: hidden;
+    background-color: #333;
+    /* position: absolute; */
+    padding: 15px;
+    bottom: 0;
+    margin-bottom: 0%;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  #bottomLogo {
+    margin-left: 75%;
+    color: white;
+  }
+  
+  #myHeart {
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+  }
+
+  div.app, div.app2, div.app3, div.app4, div.app5, div.app6, div.app7, div.app8, div.app9, div.app10, div.app11, div.app12 {
+    position:relative;
+  }
+  
+  div.app a, div.app2 a, div.app3 a, div.app4 a, div.app5 a, div.app6 a, div.app7 a, div.app8 a, div.app9 a, div.app10 a, div.app11 a, div.app12 a {
+    position:absolute;
+    top:20px;
+    left:30px;
+    display:none;
+  }
+  
+  div.app:hover a, div.app2:hover a, div.app3:hover a, div.app4:hover a, div.app5:hover a, div.app6:hover a, div.app7:hover a, div.app8:hover a, div.app9:hover a, div.app10:hover a, div.app11:hover a, div.app12:hover a {
+    display:block;
+    background-color: black;
+    opacity: 0.65;
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+    width: 64%;
+    height: 73%;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 38%;
+    transform: translate(-50%, -90%);
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  @media screen and (max-width: 980px) {
+    .sidenav {
+      width: 100px;
+    }
+    .sidenav a {
+      text-decoration: none;
+      font-size: 15px;
+      color: darkslategray;
+      display: block;
+    }
+    .initials {
+      height: 50px;
+      width: 55px;
+    }
+    .caption {
+      margin-left: 10%;
+    }
+    .caption span.border {
+      font-size: 15px;
+      letter-spacing: 10px;
+    }
+    h3 {
+      font-size: 12px;
+      margin-left: 30%;
+    }
+    p {
+      font-size: 11.5px;
+      margin-left: 35%;
+    }
+    #app {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+    #profiles {
+      margin-left: 35%;
+      margin-right: 10%;
+    }
+    #myApps {
+      margin-left: 12%;
+    }
+    #image {
+      width: 237px;
+    }
+    #myContact {
+      margin-left: -18%;
+    }
+    #contactForm {
+      margin-left: 5%;
+    }
+    #bottomLogo {
+      font-size: 10px;
+      margin-left: 35%;
+    }
+    #myHeart {
+      height: 20px;
+      width: 20px;
+    }
+    #name, #email {
+      width: 250px;
+    }
+    #message {
+      width: 250px;
+      height: 100px;
+    }
+    .myPhoto {
+      margin-bottom: 15px;
+      margin-left: 42%;
+      float: none;
+    }
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+      height: 180px;
+    }
+    div.app:hover a, div.app2:hover a, div.app3:hover a, div.app4:hover a, div.app5:hover a, div.app6:hover a, div.app7:hover a, div.app8:hover a, div.app9:hover a, div.app10:hover a, div.app11:hover a, div.app12:hover a {
+      width: 200px;
+      margin-left: 5%;
+    }
+  }
